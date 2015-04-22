@@ -2,9 +2,9 @@
 
 Demo code for the Webinar: 'Scaling with Asynchronous Messaging'.
 
-The Webinar was hosted by @ParticularSW, the makers of NServiceBus, ServiceMatrix, ServicePulse etc.
+The Webinar was hosted by [@ParticularSW](http://particular.net/), the makers of NServiceBus, ServiceMatrix, ServicePulse etc.
 
-It was presented on 21st April 2015 by me, @EltonStoneman, with help from @DanielMarbach and @MauroServienti.
+It was presented on 21st April 2015 by me, [@EltonStoneman](http://geekswithblogs.net/eltonstoneman/Default.aspx), with help from @DanielMarbach and @MauroServienti.
 
 # The Code
 
@@ -30,5 +30,7 @@ Build the solution, and publish the database project, then *run-app-v1.x.cmd* to
 
 ## Next Steps
 
-The Webinar focuses on how to scale your system, but there's much more to messaging. Check out my @Pluralsight course, [Message Queue FUndamentals in .NET](http://www.pluralsight.com/courses/message-queue-fundamentals-dotnet) for more patterns, practices, and lots more queueing technologies.
+The Webinar focuses on how to scale your system, but there's much more to messaging. 
+
+Check out my @Pluralsight course, [Message Queue Fundamentals in .NET](http://www.pluralsight.com/courses/message-queue-fundamentals-dotnet) for more patterns, practices, and lots more queueing technologies.
 
