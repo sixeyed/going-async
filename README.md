@@ -14,13 +14,17 @@ Looks at a very simple Validate-Enrich problem with three different solution app
 + v1.1 & v1.2 - parallel processing in a single host
 + v2.0 - parallel processing across many hosts
 
-For the distributed version, the solution uses MSMQ for the message queues so this is for Windows only.
+All versions use SQL Server (configs expect a local, un-named instance).
+
+For the distributed version, the solution uses MSMQ for the message queues.
+
+So this is for Windows only.
 
 ## Usage
 
 *setup.cmd* to create the queues & input directories. 
 
-Build the solution, then *run-app-v1.x.cmd* to generate some input files and process them. 
+Build the solution, and publish the database project, then *run-app-v1.x.cmd* to generate some input files and process them. 
 
 *teardown.cmd* to remove the queues and the input directory.
 
