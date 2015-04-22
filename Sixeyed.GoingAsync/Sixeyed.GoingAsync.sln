@@ -1,0 +1,111 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sixeyed.GoingAsync.Core", "Sixeyed.GoingAsync.Core\Sixeyed.GoingAsync.Core.csproj", "{3B8B2760-D300-4118-B33E-1D41035F3D28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sixeyed.GoingAsync.Steps", "Sixeyed.GoingAsync.Steps\Sixeyed.GoingAsync.Steps.csproj", "{060DBE20-9708-425C-B830-202841099540}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{772B27C6-781C-49E6-B127-6C97B7697627}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sixeyed.GoingAsync.Steps.Tests", "Sixeyed.GoingAsync.Steps.Tests\Sixeyed.GoingAsync.Steps.Tests.csproj", "{FD57AF76-C3DE-458E-942F-027CAA533809}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stubs", "Stubs", "{9348E340-03D6-4596-9A57-570565A52F69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sixeyed.GoingAsync.Stubs.PartyApi", "Sixeyed.GoingAsync.Stubs.PartyApi\Sixeyed.GoingAsync.Stubs.PartyApi.csproj", "{7B47695D-32E9-4B8D-B479-BA745EB90CE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{52B04E49-E234-4EDA-BE8A-61EA01235B42}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sixeyed.GoingAsync.AppV1", "Sixeyed.GoingAsync.AppV1\Sixeyed.GoingAsync.AppV1.csproj", "{A6E3B033-61E8-468E-BE9A-B02453901361}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sixeyed.GoingAsync.Core.Tests", "Sixeyed.GoingAsync.Core.Tests\Sixeyed.GoingAsync.Core.Tests.csproj", "{5FDFC940-096E-4EE7-B339-606DCFC2B87C}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Sixeyed.GoingAsync.Database", "Sixeyed.GoingAsync.Database\Sixeyed.GoingAsync.Database.sqlproj", "{6B4C5C7F-D7F8-4734-9BA3-97CAC330F62D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{6A3B52BC-10A8-4AAF-B921-02DB30A70966}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sixeyed.GoingAsync.Tools.TradeGenerator", "Sixeyed.GoingAsync.Tools.TradeGenerator\Sixeyed.GoingAsync.Tools.TradeGenerator.csproj", "{1DB2012E-DAEF-4134-B735-4992CDF166EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{E58AA825-92D8-4A0E-AFFD-5F557BC0F358}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Commands", "Commands", "{F2F8480D-A20E-499D-A4D2-4711F2DB70D5}"
+	ProjectSection(SolutionItems) = preProject
+		Assets\Commands\run-app-v1.0.cmd = Assets\Commands\run-app-v1.0.cmd
+		Assets\Commands\run-app-v1.1.cmd = Assets\Commands\run-app-v1.1.cmd
+		Assets\Commands\run-app-v1.2.cmd = Assets\Commands\run-app-v1.2.cmd
+		Assets\Commands\run-app-v2.0.cmd = Assets\Commands\run-app-v2.0.cmd
+		Assets\Commands\setup.cmd = Assets\Commands\setup.cmd
+		Assets\Commands\teardown.cmd = Assets\Commands\teardown.cmd
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sixeyed.GoingAsync.AppV2.Producer", "Sixeyed.GoingAsync.AppV2.Producer\Sixeyed.GoingAsync.AppV2.Producer.csproj", "{59DA1864-FDC1-4EAC-A40B-40CB6D39609F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sixeyed.GoingAsync.AppV2.Consumer", "Sixeyed.GoingAsync.AppV2.Consumer\Sixeyed.GoingAsync.AppV2.Consumer.csproj", "{AF51D4C7-5412-4559-BF0A-20AC5B54BC74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B8B2760-D300-4118-B33E-1D41035F3D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B8B2760-D300-4118-B33E-1D41035F3D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B8B2760-D300-4118-B33E-1D41035F3D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B8B2760-D300-4118-B33E-1D41035F3D28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{060DBE20-9708-425C-B830-202841099540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{060DBE20-9708-425C-B830-202841099540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{060DBE20-9708-425C-B830-202841099540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{060DBE20-9708-425C-B830-202841099540}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD57AF76-C3DE-458E-942F-027CAA533809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD57AF76-C3DE-458E-942F-027CAA533809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD57AF76-C3DE-458E-942F-027CAA533809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD57AF76-C3DE-458E-942F-027CAA533809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B47695D-32E9-4B8D-B479-BA745EB90CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B47695D-32E9-4B8D-B479-BA745EB90CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B47695D-32E9-4B8D-B479-BA745EB90CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B47695D-32E9-4B8D-B479-BA745EB90CE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6E3B033-61E8-468E-BE9A-B02453901361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6E3B033-61E8-468E-BE9A-B02453901361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6E3B033-61E8-468E-BE9A-B02453901361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6E3B033-61E8-468E-BE9A-B02453901361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FDFC940-096E-4EE7-B339-606DCFC2B87C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FDFC940-096E-4EE7-B339-606DCFC2B87C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FDFC940-096E-4EE7-B339-606DCFC2B87C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FDFC940-096E-4EE7-B339-606DCFC2B87C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B4C5C7F-D7F8-4734-9BA3-97CAC330F62D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B4C5C7F-D7F8-4734-9BA3-97CAC330F62D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B4C5C7F-D7F8-4734-9BA3-97CAC330F62D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6B4C5C7F-D7F8-4734-9BA3-97CAC330F62D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B4C5C7F-D7F8-4734-9BA3-97CAC330F62D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B4C5C7F-D7F8-4734-9BA3-97CAC330F62D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1DB2012E-DAEF-4134-B735-4992CDF166EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DB2012E-DAEF-4134-B735-4992CDF166EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DB2012E-DAEF-4134-B735-4992CDF166EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DB2012E-DAEF-4134-B735-4992CDF166EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59DA1864-FDC1-4EAC-A40B-40CB6D39609F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59DA1864-FDC1-4EAC-A40B-40CB6D39609F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59DA1864-FDC1-4EAC-A40B-40CB6D39609F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59DA1864-FDC1-4EAC-A40B-40CB6D39609F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF51D4C7-5412-4559-BF0A-20AC5B54BC74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF51D4C7-5412-4559-BF0A-20AC5B54BC74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF51D4C7-5412-4559-BF0A-20AC5B54BC74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF51D4C7-5412-4559-BF0A-20AC5B54BC74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FD57AF76-C3DE-458E-942F-027CAA533809} = {772B27C6-781C-49E6-B127-6C97B7697627}
+		{9348E340-03D6-4596-9A57-570565A52F69} = {772B27C6-781C-49E6-B127-6C97B7697627}
+		{7B47695D-32E9-4B8D-B479-BA745EB90CE5} = {9348E340-03D6-4596-9A57-570565A52F69}
+		{5FDFC940-096E-4EE7-B339-606DCFC2B87C} = {772B27C6-781C-49E6-B127-6C97B7697627}
+		{1DB2012E-DAEF-4134-B735-4992CDF166EA} = {6A3B52BC-10A8-4AAF-B921-02DB30A70966}
+		{F2F8480D-A20E-499D-A4D2-4711F2DB70D5} = {E58AA825-92D8-4A0E-AFFD-5F557BC0F358}
+	EndGlobalSection
+EndGlobal
